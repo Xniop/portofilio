@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 100%;
+    
+}
+
+.content {
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 40% 10% 50%;
+    column-gap: 0%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 1px -8px;
+}
+
+.content .logo {
+    width: 100%;
+    
+    border-right: 3px solid #f7f7f7;
+    
+    
+}
+
+.content .logo img {
+    width: 70%;
+    border-radius: 15%;
+}
+
+.content .title {
+    font-size: 40px;
+    
+    width: 100%;
+    margin-left: 0%;
+    color: #363636;
+}
+
+.content .title .desc {
+    font-size: 20px;
+    
+    width: 100%;
+    color: #525252;
+}
+
+
+.content2 {
+    width: 80%;
+    
+    margin: auto;
+    padding: 2%;
+    margin-top: 10%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 40% 10% 50%;
+    column-gap: 0%;
+    
+}
+
+.content2 .logo {
+    width: 100%;
+    
+    border-left: 3px solid #fff;
+    
+    
+}
+
+.content2 .logo img {
+    width: 70%;
+    border-radius: 15%;
+    float: right;
+}
+
+.content2 .title {
+    font-size: 40px;
+    
+    width: 100%;
+    margin-left: 0%;
+    color: #363636;
+}
+
+.content2 .title .desc {
+    font-size: 20px;
+    
+    width: 100%;
+    color: #525252;
+}
+
+p span {
+    color: #363636;
+    font-weight: 600;
+}
+
+
+.project {
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+    padding: 2%;
+    margin-top: 10%;
+    border-radius: 20px;
+    display: grid;
+   
+    column-gap: 0%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 1px -8px;
+}
+
+
+
+
+.project .title {
+    font-size: 40px;
+    
+    width: 100%;
+    margin-left: 0%;
+    color: #363636;
+    text-align: center;
+}
+
+.project .icerikler {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10%;
+    
+}
+
+.icerikler .icerik {
+    background-color: #f7f7f7;
+    border-radius: 15px; 
+
+    transition: 0.1s;
+}
+
+.icerikler .icerik:hover {
+    transform: scale(1.05);
+}
+
+.icerik .img {
+    width: 100%;
+    margin: auto;
+    
+}
+
+.icerik .img img {
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.icerik .title {
+    font-size: 40px;
+    
+    width: 100%;
+    margin-left: 0%;
+    color: #363636;
+    text-align: center;
+}
+
+
+#icerik {
+    margin-bottom: 30%;
+
+}
+
+footer {
+    background-color: #fff;
+    margin-top: 10%;
+}
+
+footer .icerik {
+    width: 70%;
+    margin: auto;
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+footer .icerik .iletisim {
+    margin: auto;
+    width: 100%;
+    
+}
+
+
+footer .icerik .iletisim a img {
+    width: 3%;
+    padding: 0.5%;
+}
+
+footer .icerik .iletisim h1 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 0.5%;
+}
+
+footer .footer {
+    background-color: #fafafa;
+    padding: 1%;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer p a {
+    color: red;
+}
+
+
+
+
+@media only screen and (max-width: 714px) {
+    .project .icerikler {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 5%;
+        
+    }
+
+    .icerikler .icerik {
+        width: 90%;
+    }
+    
+    .icerik .title {
+        font-size: 20px;
+    
+
+    }
+
+    footer .icerik .iletisim a img {
+        width: 8%;
+        padding: 0.5%;
+    }
+  }
